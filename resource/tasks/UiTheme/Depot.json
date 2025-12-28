@@ -19,7 +19,8 @@
             "DepotDreamland",
             "DepotJieGarden",
             "DepotAveMujica",
-            "DepotTogether"
+            "DepotTogether",
+            "DepotLoneTrail"
         ]
     },
     "DepotDefault": {
@@ -77,5 +78,9 @@
     "DepotTogether": {
         "baseTask": "DepotDefault",
         "template": "Together/DepotEnter.png"
+    },
+    "DepotLoneTrail": {
+        "baseTask": "DepotDefault",
+        "template": ["LoneTrail/Day/DepotEnter.png", "LoneTrail/Night/DepotEnter.png"]
     }
 }

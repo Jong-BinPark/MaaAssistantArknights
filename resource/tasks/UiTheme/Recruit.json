@@ -19,7 +19,8 @@
             "RecruitDreamland",
             "RecruitJieGarden",
             "RecruitAveMujica",
-            "RecruitTogether"
+            "RecruitTogether",
+            "RecruitLoneTrail"
         ]
     },
     "RecruitDefault": {
@@ -77,5 +78,9 @@
     "RecruitTogether": {
         "baseTask": "RecruitDefault",
         "template": "Together/Recruit.png"
+    },
+    "RecruitLoneTrail": {
+        "baseTask": "RecruitDefault",
+        "template": ["LoneTrail/Day/Recruit.png", "LoneTrail/Night/Recruit.png"]
     }
 }

@@ -20,7 +20,8 @@
             "TerminalDreamland",
             "TerminalJieGarden",
             "TerminalAveMujica",
-            "TerminalTogether"
+            "TerminalTogether",
+            "TerminalLoneTrail"
         ]
     },
     "TerminalDefault": {
@@ -78,5 +79,9 @@
     "TerminalTogether": {
         "baseTask": "TerminalDefault",
         "template": "Together/Terminal.png"
+    },
+    "TerminalLoneTrail": {
+        "baseTask": "TerminalDefault",
+        "template": ["LoneTrail/Day/Terminal.png", "LoneTrail/Night/Terminal.png"]
     }
 }

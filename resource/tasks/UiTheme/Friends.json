@@ -19,7 +19,8 @@
             "FriendsDreamland",
             "FriendsJieGarden",
             "FriendsAveMujica",
-            "FriendsTogether"
+            "FriendsTogether",
+            "FriendsLoneTrail"
         ]
     },
     "FriendsDefault": {
@@ -78,5 +79,9 @@
     "FriendsTogether": {
         "baseTask": "FriendsDefault",
         "template": "Together/Friends.png"
+    },
+    "FriendsLoneTrail": {
+        "baseTask": "FriendsDefault",
+        "template": ["LoneTrail/Day/Friends.png", "LoneTrail/Night/Friends.png"]
     }
 }

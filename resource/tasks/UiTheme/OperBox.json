@@ -19,7 +19,8 @@
             "OperBoxDreamland",
             "OperBoxJieGarden",
             "OperBoxAveMujica",
-            "OperBoxTogether"
+            "OperBoxTogether",
+            "OperBoxLoneTrail"
         ]
     },
     "OperBoxDefault": {
@@ -77,5 +78,9 @@
     "OperBoxTogether": {
         "baseTask": "OperBoxDefault",
         "template": "Together/OperBoxEnter.png"
+    },
+    "OperBoxLoneTrail": {
+        "baseTask": "OperBoxDefault",
+        "template": ["LoneTrail/Day/OperBoxEnter.png", "LoneTrail/Night/OperBoxEnter.png"]
     }
 }

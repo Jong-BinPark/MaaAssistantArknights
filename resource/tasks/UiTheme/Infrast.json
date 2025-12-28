@@ -19,7 +19,8 @@
             "InfrastDreamland",
             "InfrastJieGarden",
             "InfrastAveMujica",
-            "InfrastTogether"
+            "InfrastTogether",
+            "InfrastLoneTrail"
         ]
     },
     "InfrastDefault": {
@@ -77,5 +78,9 @@
     "InfrastTogether": {
         "baseTask": "InfrastDefault",
         "template": "Together/EnterInfrast.png"
+    },
+    "InfrastLoneTrail": {
+        "baseTask": "InfrastDefault",
+        "template": ["LoneTrail/Day/EnterInfrast.png", "LoneTrail/Night/EnterInfrast.png"]
     }
 }

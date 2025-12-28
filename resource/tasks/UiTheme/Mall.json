@@ -19,7 +19,8 @@
             "MallDreamland",
             "MallJieGarden",
             "MallAveMujica",
-            "MallTogether"
+            "MallTogether",
+            "MallLoneTrail"
         ]
     },
     "MallDefault": {
@@ -77,5 +78,9 @@
     "MallTogether": {
         "baseTask": "MallDefault",
         "template": "Together/Mall.png"
+    },
+    "MallLoneTrail": {
+        "baseTask": "MallDefault",
+        "template": ["LoneTrail/Day/Mall.png", "LoneTrail/Night/Mall.png"]
     }
 }
